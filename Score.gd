@@ -69,7 +69,7 @@ func get_vel():
 	if n >= mx:
 		n = mx - 1
 		f = (level + 1.0) / (factor * mx)
-	return f * Vector2(rand_range(VX[n][0],VX[n][1]),rand_range(VY[n][0],VY[n][1])).rotated(rand_range(0.4, PI/2))
+	return f * Vector2(rand_range(VX[n][0],VX[n][1]),rand_range(VY[n][0],VY[n][1])).rotated(rand_range(0.9, PI/2))
 
 func start():
 	$end.stop()
